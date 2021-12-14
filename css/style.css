@@ -1,4 +1,4 @@
-.header {
+#header {
     background-color: #ff6700;
 }
 
@@ -98,4 +98,24 @@
     letter-spacing: 1px;
     color: #FFFFFF;
 
+}
+
+.service-item {
+    background: #ffffff;
+    border: 1px solid #12022F;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+.service-item:hover {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+    background: rgba(255, 225, 204, 0.3);
+    border: 1px solid #FF6700;
+    box-sizing: border-box;
+    border-radius: 32px;
 }
